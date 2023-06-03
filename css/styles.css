@@ -142,6 +142,7 @@ img {
     background-color: #404BBF;
     border-radius: 2px;
     content: '';
+    color: #404bbf
     }
     
 
@@ -226,7 +227,7 @@ img {
     display: block;
     min-width: 169px;
     border: none;
-    transition: background-color var(--tra);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-section-button:hover,
@@ -646,12 +647,18 @@ img {
 .modal-close:focus {
     background-color: #404bbf;
     border: none;
-    fill: #FFFFFF;
 }
 
 .modal-close-icon {
     fill: currentColor;
     transition: fill var(--tra);
+}
+
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #FFFFFF;
 }
 
 .is-hidden {
@@ -797,7 +804,7 @@ img {
     border: 1px solid #e7e9fc;
     border-radius: 4px;
     box-shadow: 0 2 1 0 #404BBF;
-    transition: color var(--tra), background-color var(--tra), box-shadow var(--tra), border var(--tra);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
 
@@ -820,7 +827,7 @@ img {
     transform: translateY(0);
 }
 
-.portfolio-link:focus {
+.portfolio-link:focus .outbound-text{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0);
 }
