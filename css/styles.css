@@ -108,14 +108,12 @@ img {
     transition-property: transform;
     transition: color var(--tra);
     position: relative;
-    color: #404bbf;
+    color: #2E2F42;
 }
-
 .header-link:hover,
 .header-link:focus {
     color: #404bbf;
 }
-
 
 .current-page {
     font-weight: 500;
@@ -123,14 +121,14 @@ img {
     line-height: 1.5;
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-    
+
     /* NAVY BLUE */
     position: relative;
     transition: color var(--tra);
     color: #404bbf;
 }
 
-.current-page::after {
+.cuurent-page::after {
     width: 100%;
     display: block;
     position: absolute;
