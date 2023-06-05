@@ -42,8 +42,6 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-
-    
 }
 
 .header-logo-link {
@@ -87,9 +85,7 @@ img {
 .header-list {
     display: flex;
     gap: 40px;
-
 }
-
 
 .header-navigation {
     display: flex;
@@ -110,7 +106,7 @@ img {
     position: relative;
     color: #2E2F42;
 }
-
+.header-link.current-page,
 .header-link:hover,
 .header-link:focus {
     color: #404bbf;
@@ -141,8 +137,12 @@ img {
     content: '';
     color: #404bbf;
     }
-    
 
+.header-link:hover:after,
+.header-link:focus:after,
+.header-link.current-page:after {
+    transform: scaleX(1);
+}
 .header-address {
     font-style: normal;
     margin-left: auto;
@@ -720,18 +720,6 @@ img {
 
 .list {
     list-style: none;
-}
-
-.header-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    /* identical to box height, or 150% */
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-    color: #2E2F42;
-    transition: color var(--tra);
 }
 
 .header-link:hover,
