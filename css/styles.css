@@ -224,6 +224,7 @@ img {
     border: none;
     color: #FFFFFF;
     transition: background-color var(--tra);
+    background: #4D5AE5;
 }
 
 .main-section-button:hover,
