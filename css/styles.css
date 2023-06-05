@@ -660,12 +660,6 @@ img {
     position: absolute;
 }
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
-    background-color: #404bbf;
-    border: none;
-}
-
 .is-hidden {
     visibility: hidden;
     opacity: 0;
