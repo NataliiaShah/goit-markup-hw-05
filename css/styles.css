@@ -110,6 +110,7 @@ img {
     position: relative;
     color: #2E2F42;
 }
+
 .header-link:hover,
 .header-link:focus {
     color: #404bbf;
@@ -128,7 +129,7 @@ img {
     color: #404bbf;
 }
 
-.cuurent-page::after {
+.current-page::after {
     width: 100%;
     display: block;
     position: absolute;
