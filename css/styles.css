@@ -127,7 +127,7 @@ img {
     /* NAVY BLUE */
     position: relative;
     transition: color var(--tra);
-    color: #404bbf
+    color: #404bbf;
 }
 
 .current-page::after {
@@ -140,7 +140,6 @@ img {
     background-color: #404BBF;
     border-radius: 2px;
     content: '';
-    color: #404bbf
     }
     
 
@@ -642,7 +641,12 @@ img {
     color: #2E2F42;
 }
 
-.modal-close:hover,
+.modal-close:hover .modal-close-icon {
+    background-color: #404bbf;
+    border: none;
+    fill: #FFFFFF;
+}
+
 .modal-close:focus {
     background-color: #404bbf;
     border: none;
@@ -657,7 +661,6 @@ img {
 .modal-close-icon:focus {
     background-color: #404bbf;
     border: none;
-    fill: #FFFFFF;
 }
 
 .is-hidden {
