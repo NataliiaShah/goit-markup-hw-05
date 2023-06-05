@@ -646,6 +646,7 @@ img {
 .modal-close:hover {
     background-color: #404bbf;
     border: none;
+    color: #FFFFFF;
 }
 
 .modal-close:focus .modal-close-icon,
@@ -656,6 +657,7 @@ img {
 .modal-close-icon {
     fill: currentColor;
     transition: fill var(--tra);
+    position: absolute;
 }
 
 .modal-close-icon:hover,
