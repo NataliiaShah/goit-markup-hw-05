@@ -223,6 +223,7 @@ img {
     min-width: 169px;
     border: none;
     color: #FFFFFF;
+    transition: background-color var(--tra);
 }
 
 .main-section-button:hover,
@@ -641,15 +642,17 @@ img {
     color: #2E2F42;
 }
 
+.modal-close:focus,
+.modal-close:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
+.modal-close:focus .modal-close-icon,
 .modal-close:hover .modal-close-icon {
     background-color: #404bbf;
     border: none;
     fill: #FFFFFF;
-}
-
-.modal-close:focus {
-    background-color: #404bbf;
-    border: none;
 }
 
 .modal-close-icon {
